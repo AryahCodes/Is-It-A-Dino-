@@ -114,16 +114,8 @@ def main():
     IMAGES_PER_SPECIES = 50
     
     # Check if source path exists
-    if not os.path.exists(SOURCE_PATH) or SOURCE_PATH == "/Users/aryahb/IsItADino/is-it-a-dino/data/dinosaur_dataset":
+    if not os.path.exists(SOURCE_PATH):
         print("⚠️  ERROR: Please update SOURCE_PATH in the script!")
-        print("\nInstructions:")
-        print("1. Open this script in your editor")
-        print("2. Find the SOURCE_PATH variable in main()")
-        print("3. Change it to your actual dataset path")
-        print("\nExample:")
-        print('   SOURCE_PATH = "C:/Users/YourName/Downloads/dinosaur_dataset"')
-        print('   or')
-        print('   SOURCE_PATH = "/Users/YourName/Downloads/dinosaur_dataset"')
         return
     
     # Run the selection
