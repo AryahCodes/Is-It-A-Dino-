@@ -130,7 +130,7 @@ def main():
 
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
-            st.image(image, caption='Your uploaded image', use_container_width=True)
+            st.image(image, caption='Your uploaded image', use_column_width=True)
 
         with st.spinner("🔍 Analyzing with AI..."):
             img_array = preprocess_image(image)
