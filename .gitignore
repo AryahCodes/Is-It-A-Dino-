@@ -1,0 +1,46 @@
+# -------------------------------
+# Python + TensorFlow Project Ignore
+# -------------------------------
+
+# Datasets and temporary folders
+data/
+temp_*/
+*.zip
+
+# Notebooks and checkpoints
+*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Model training files
+*.h5
+*.keras
+*.ckpt
+*.pb
+
+# Logs and metadata
+logs/
+checkpoints/
+*.log
+
+# Virtual environments (completely ignore the folder)
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Credentials
+kaggle.json
+*.pem
+*.key
+*.p12
+*.json
+
+# Streamlit / cache
+.streamlit/
+.cache/
